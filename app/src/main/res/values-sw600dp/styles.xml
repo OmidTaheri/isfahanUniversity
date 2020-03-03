@@ -1,0 +1,69 @@
+<resources>
+
+
+    <style name="TextStyle">
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="DarkTitle" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textColor">@color/dark_title</item>
+        <item name="android:textSize">@dimen/material_tall_text_title_bold</item>
+
+    </style>
+
+    <style name="DarkSub" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/material_tall_text_subheading_regular</item>
+        <item name="android:textColor">@color/dark_subheading</item>
+    </style>
+
+    <style name="DarkHeading" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_headline_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_headline</item>
+    </style>
+
+
+    <style name="DarkBody1" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_body_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_body1</item>
+    </style>
+
+
+    <style name="DarkCaption" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_caption_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_caption</item>
+    </style>
+
+
+    <style name="DarkButton" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_button_bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textColor">@color/dark_button</item>
+    </style>
+
+
+    <style name="DarkDivider">
+        <item name="android:color">@color/darkDividers</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+    </style>
+
+
+    <style name="LightDivider">
+        <item name="android:color">@color/whiteDividers</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+    </style>
+
+
+
+</resources>
+

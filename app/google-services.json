@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "498256843340",
+    "firebase_url": "https://isfuni-39d4f.firebaseio.com",
+    "project_id": "isfuni-39d4f",
+    "storage_bucket": "isfuni-39d4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498256843340:android:8247d172fbfe9729",
+        "android_client_info": {
+          "package_name": "ir.satintech.isfuni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498256843340-c640jt33ki859nnpjfe48o57svss2tgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcc7w_voaauK_qgXQcRN40_Ht0Cxg9fQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

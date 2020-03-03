@@ -1,0 +1,76 @@
+
+
+<resources>
+    <string name="app_name">مکان یاب دانشگاه اصفهان</string>
+    <string name="font_path_regular">fonts/byekan.ttf</string>
+    <string name="error_button_text">تلاش مجدد</string>
+    <string name="copyright_string">Copyright &#169; 2018 ,Satin Tech .All Rights Reserved</string>
+    <string name="double_exit_message">برای خروج از برنامه یکبار دیگر دکمه بازگشت را فشار دهید</string>
+
+    <!--Error Handling-->
+    <string name="ERROR_UNAUTHORIZED">شما اجازه دسترسی به محتوا را ندارید</string>
+
+    <string name="ERROR_NOT_FOUND">محتوای مورد نظر در دسترس نیست</string>
+
+    <string name="ERROR_GENERAL">خطا در دریافت اطلاعات</string>
+    <string name="some_error">خطا</string>
+
+    <!--SplashActivity Activity-->
+
+    <string name="error_connection">خطا در ارتباط با اینترنت</string>
+
+
+    <!--About Us Activity-->
+    <string name="satintech_about">
+تیم نرم افزاری ساتین تک ، تیمی متشکل از متخصصین در زمینه ی طراحی و پیاده سازی سیستم های نرم افزاری در حوزه ی اپلیکیشن های اندروید، اپلیکیشن های تحت وب، سایت های شخصی و شرکتی، می باشد. این تیم در آبان ماه سال ۹۶ ، گرد هم جمع شدند تا خدماتی درخور مشتریان حوزه ی فناوری اطلاعات (IT) ارائه دهند.
+</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!--category list-->
+    <string name="masq">مراکز مذهبی و مساجد</string>
+
+    <string name="input_output">ورودی ها و خروجی ها</string>
+
+    <string name="amoozeshi">دانشکده ها و مراکز آموزشی</string>
+
+    <string name="food">رستوران ها و غدذاخوری ها</string>
+
+    <string name="Cafe">کافه ها</string>
+
+    <string name="Service">مراکز اداری و خدماتی</string>
+
+    <string name="sport">مراکز ورزشی</string>
+
+    <string name="Calcure">مراکز فرهنگی</string>
+
+
+    <string name="talar">تالارها و سالن های اجتماعات</string>
+
+    <string name="khabgah">خوابگاه ها</string>
+
+    <string name="library">کتابخانه ها</string>
+
+    <string name="bank">بانک ها و خودپردازها</string>
+
+    <string name="hospital">مراکز بهداشتی و درمانی</string>
+
+    <string name="parking">پارکینگ ها</string>
+
+
+
+    <!--support Us Activity-->
+    <string name="support_text">
+        لطفا برای تکمیل اطلاعات این اپلیکیشن ، اگر مکان جدیدی که در هر یک از دسته بندی های اپلیکیشن قرار میگیرد و داخل اپلیکشن در حال حاضر وجود ندارد،را می شناسید ، اطلاعات مکانی آن را به همراه عکس و نام مکان مورد نظر را از راه های ارتباطی زیر برای ما ارسال کنید تا در نسخه های بعدی در اپلیکیشن قرار بگیرد. از همراهی شما سپاس گذاریم.
+    </string>
+
+    <!--Update Dialog-->
+    <string name="Dialog_title">بروزرسانی</string>
+    <string name="Dialog_content">نسخه ی جدیدی از اپلیکیشن در دسترس است . مایل به دریافت آن هستید؟</string>
+
+
+
+</resources>
+
+
+

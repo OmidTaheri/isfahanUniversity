@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/AppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layoutDirection="rtl"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ToolbarColoredBackArrow"/>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/material_layout_keylines_screen_edge_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:scrollbars="none">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/material_layout_keylines_screen_edge_margin"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text"
+                style="@style/DarkBody1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:lineSpacingExtra="4dp"
+                android:paddingBottom="@dimen/material_component_cards_supporting_text_bottom_padding"
+                android:paddingLeft="@dimen/material_component_cards_left_and_right_padding"
+                android:paddingRight="@dimen/material_component_cards_left_and_right_padding"
+                android:paddingTop="@dimen/material_component_cards_supporting_text_top_padding"
+                android:text="@string/support_text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/telegram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/material_layout_vertical_spacing_between_content_areas"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                app:layout_constraintRight_toLeftOf="@+id/email"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text"
+                app:srcCompat="@drawable/contact_telegram"
+                tools:ignore="UnusedAttribute" />
+
+
+            <ImageView
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/material_layout_vertical_spacing_between_content_areas"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="2"
+                app:layout_constraintLeft_toRightOf="@+id/telegram"
+                app:layout_constraintTop_toBottomOf="@+id/text"
+                app:srcCompat="@drawable/contact_email" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

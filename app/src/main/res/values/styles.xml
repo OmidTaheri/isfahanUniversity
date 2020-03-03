@@ -1,0 +1,166 @@
+
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/material_tall_text_subheading_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColorHint">@color/whiteHintText</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+
+    <style name="TextAppearance.Text.Regular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/byekan.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Bold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/byekan_bold.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Light" parent="android:TextAppearance">
+        <item name="fontPath">fonts/byekan.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Italic" parent="android:TextAppearance">
+        <item name="fontPath">fonts/byekan.ttf</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="DarkTitle" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textColor">@color/dark_title</item>
+        <item name="android:textSize">@dimen/material_tall_text_title_bold</item>
+
+    </style>
+
+    <style name="DarkSub" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/material_tall_text_subheading_regular</item>
+        <item name="android:textColor">@color/dark_subheading</item>
+    </style>
+
+    <style name="DarkHeading" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_headline_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_headline</item>
+    </style>
+
+
+    <style name="DarkBody1" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_body_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_body1</item>
+    </style>
+
+
+    <style name="DarkCaption" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_caption_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textColor">@color/dark_caption</item>
+    </style>
+
+
+    <style name="DarkButton" parent="TextStyle">
+        <item name="android:textSize">@dimen/material_tall_text_button_bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+        <item name="android:textColor">@color/dark_button</item>
+    </style>
+
+
+    <style name="LightTitle" parent="DarkTitle">
+        <item name="android:textColor">@color/white_title</item>
+    </style>
+
+    <style name="LightSub" parent="DarkSub">
+        <item name="android:textColor">@color/white_subheading</item>
+    </style>
+
+    <style name="LightHeading" parent="DarkHeading">
+        <item name="android:textColor">@color/white_headline</item>
+    </style>
+
+
+    <style name="LightBody1" parent="DarkBody1">
+        <item name="android:textColor">@color/white_body1</item>
+    </style>
+
+
+    <style name="LightCaption" parent="DarkCaption">
+        <item name="android:textColor">@color/white_caption</item>
+    </style>
+
+
+    <style name="LightButton" parent="DarkButton">
+        <item name="android:textColor">@color/white_button</item>
+    </style>
+
+
+    <style name="DarkDivider">
+        <item name="android:color">@color/darkDividers</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+
+    <style name="LightDivider">
+        <item name="android:color">@color/whiteDividers</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+
+    <style name="LightHintText" parent="LightCaption">
+        <item name="android:color">@color/whiteHintText</item>
+    </style>
+
+
+    <style name="DarkHintText" parent="DarkCaption">
+        <item name="android:color">@color/darkHintText</item>
+    </style>
+
+    <style name="MyTitleToolbar" parent="LightTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="ErrorButtonStyle" parent="DarkCaption">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/red</item>
+    </style>
+
+
+    <style name="Emptyview" parent="DarkBody1">
+        <item name="android:textColor">@color/darkHintText</item>
+    </style>
+
+
+</resources>
+

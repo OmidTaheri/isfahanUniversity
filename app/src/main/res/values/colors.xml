@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+
+    <color name="colorPrimary">#783db1</color>
+    <color name="colorPrimaryLight">#aa6be4</color>
+    <color name="colorPrimaryDark">#470c81</color>
+    <color name="colorAccent">#9736aa</color>
+    <color name="colorAccentLightColor">#ca67dc</color>
+    <color name="colorAccentDarkColor">#66007a</color>
+    <color name="primaryTextColor">@color/whitePrimaryText</color>
+    <color name="secondaryTextColor">@color/whiteSecondaryText</color>
+
+
+    <!-- commen color-->
+    <color name="red">#DD3636</color>
+    <color name="green">#69BC45</color>
+
+
+    <!--Dark text on light backgrounds -->
+    <color name="darkPrimaryText">#DE000000</color>
+    <color name="darkSecondaryText">#8A000000</color>
+    <color name="darkDisabledText">#61000000</color>
+    <color name="darkHintText">#61000000</color>
+    <color name="darkDividers">#1F000000</color>
+
+
+    <!--White text on dark backgrounds -->
+    <color name="whitePrimaryText">#FFFFFFFF</color>
+    <color name="whiteSecondaryText">#B3FFFFFF</color>
+    <color name="whiteDisabledText">#80FFFFFF</color>
+    <color name="whiteHintText">#80FFFFFF</color>
+    <color name="whiteDividers">#1FFFFFFF</color>
+
+    <!-- -->
+    <color name="darkActiveIcon">#8A000000</color>
+    <color name="darkInactiveIcont">#61000000</color>
+
+
+    <!-- -->
+    <color name="whiteActiveIcon">#FFFFFFFF</color>
+    <color name="whiteInactiveIcon">#80FFFFFF</color>
+
+
+    <!--Dark text on light backgrounds Places -->
+    <color name="dark_display4">#8A000000</color>
+    <color name="dark_display3">#8A000000</color>
+    <color name="dark_display2">#8A000000</color>
+    <color name="dark_display1">#8A000000</color>
+    <color name="dark_headline">#DE000000</color>
+    <color name="dark_title">#DE000000</color>
+    <color name="dark_subheading">#DE000000</color>
+    <color name="dark_body2">#DE000000</color>
+    <color name="dark_body1">#DE000000</color>
+    <color name="dark_caption">#8A000000</color>
+    <color name="dark_button">#DE000000</color>
+
+
+    <!--White text on dark backgrounds Places -->
+    <color name="white_display4">#B3FFFFFF</color>
+    <color name="white_display3">#B3FFFFFF</color>
+    <color name="white_display2">#B3FFFFFF</color>
+    <color name="white_display1">#B3FFFFFF</color>
+    <color name="white_headline">#FFFFFFFF</color>
+    <color name="white_title">#FFFFFFFF</color>
+    <color name="white_subheading">#FFFFFFFF</color>
+    <color name="white_body2">#FFFFFFFF</color>
+    <color name="white_body1">#FFFFFFFF</color>
+    <color name="white_caption">#B3FFFFFF</color>
+    <color name="white_button">#FFFFFFFF</color>
+
+
+    <!-- other color -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
