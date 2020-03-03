@@ -25,7 +25,7 @@ Clone this repo to your local machine using https://github.com/OmidTaheri/isfaha
 
 * MVP Ahitecture
 * Glide - Load Image
-* Rtrofit- Network Requests
+* Retrofit- Network Requests
 * Dagger- Dependency Injection
 * rxjava2- Reacttive Programming
 * Butterknife- Injection View
