@@ -1,39 +1,61 @@
-# isfahanUniversity
-
-اپلیکیشنی برای دانشجویان دانشگاه اصفهان به منظور:
-
-•	مشاهده مکان های آموزشی ، خدماتی ، رفاهی و … دانشگاه اصفهان بر روی نقشه
-•	دریافت شماره تلفن و آدرس وب سایت و تصاویر  و اطلاعات کامل از مکان های دانشگاه.
-•	مسیریابی از مکان فعلی کاربر تا محل انتخاب شده.
-•	امکان مشاهده مکان در دسته بندی های مختلف
+ 
+<h1 align="center"> isfahanUniversity </h1>
+<br>
+<p align="center">
+    <img alt="isfahanUniversity" title="isfahanUniversity" src="ScreenShots/mainIcon.png" width="200">
+</p>
 
 
+![-----------------------------------------------------](ScreenShots/rainbow.png)
 
-## Clone
+#### `Introduce`
 
-Clone this repo to your local machine using https://github.com/OmidTaheri/isfahanUniversity.git
-
-[Demo apk](http://omidtaheri.ir/wp-content/uploads/2020/09/isfahanLocations.apk)
-
-
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/03/daneshgah12.jpg"   height="480" width="300" ></a>
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/03/daneshga32.jpg"   height="480" width="300" ></a>
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/03/daneshgah22.jpg"   height="480" width="300" ></a>
-<a href="url"><img src="http://omidtaheri.ir/wp-content/uploads/2020/03/daneshgah42.jpg"   height="480" width="300" ></a>
+The application of Isfahan University locator has been developed for locating and getting acquainted with different centers of Isfahan University for the students of this university.
 
 
+![-----------------------------------------------------](ScreenShots/rainbow.png)
 
+#### `Features`
+* Show educational, service, welfare places and… University of Isfahan on the map
+* Get phone number, website address, pictures and complete information of university locations
+* Routing from the user's current location to the selected location.
 
-## Built With
+![-----------------------------------------------------](ScreenShots/rainbow.png)
 
-* MVP Ahitecture
-* Glide - Load Image
+#### `Screenshot` 
+
+<p align="center">
+  <img src = "ScreenShots/screenshot1.jpg" width=250>
+   <img src = "ScreenShots/screenshot2.jpg" width=250>
+  <br>
+   <img src = "ScreenShots/screenshot3.jpg" width=250>
+   <img src = "ScreenShots/screenshot4.jpg" width=250>
+  </p>
+  
+
+ ![-----------------------------------------------------](ScreenShots/rainbow.png)
+  
+### `Tools & Dependencies`
+* MVP Structure
+* Google Maps
+* Google Material Design
 * Retrofit- Network Requests
 * Dagger- Dependency Injection
-* rxjava2- Reacttive Programming
-* Butterknife- Injection View
-* Google Map- Map
+* RxJava/RxAndroid- Reacttive Programming
+* Firebase Crashlytics
 
-## Authors
+ ![-----------------------------------------------------](ScreenShots/rainbow.png)
 
-* **Omid Taheri** - [Personal Site](http://omidtaheri.ir)
+[![Show Demo Video](https://img.shields.io/badge/-Show%20Demo%20Video-red)](https://drive.google.com/file/d/193PONFCxdWDl9c0wrbsLojrL-PFImHxr/view?usp=sharing)
+
+[Show Demo Video](https://drive.google.com/file/d/193PONFCxdWDl9c0wrbsLojrL-PFImHxr/view?usp=sharing)
+
+
+[![Download Demo apk](https://img.shields.io/badge/-Download%20Demo%20apk-orange)](http://omidtaheri.ir/wp-content/uploads/2020/09/isfahanLocations.apk)
+
+[Download Demo apk](http://omidtaheri.ir/wp-content/uploads/2020/09/isfahanLocations.apk)
+
+
+![-----------------------------------------------------](ScreenShots/rainbow.png)
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omid-taheri)
