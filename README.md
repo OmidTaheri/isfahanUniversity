@@ -51,9 +51,9 @@ The application of Isfahan University locator has been developed for locating an
 [Show Demo Video](https://drive.google.com/file/d/193PONFCxdWDl9c0wrbsLojrL-PFImHxr/view?usp=sharing)
 
 
-[![Download Demo apk](https://img.shields.io/badge/-Download%20Demo%20apk-orange)](http://omidtaheri.ir/wp-content/uploads/2020/09/isfahanLocations.apk)
+[![Download Demo apk](https://img.shields.io/badge/-Download%20Demo%20apk-orange)](http://omidtaheri.ir/myassets/apks/isfahanLocations.apk)
 
-[Download Demo apk](http://omidtaheri.ir/wp-content/uploads/2020/09/isfahanLocations.apk)
+[Download Demo apk](http://omidtaheri.ir/myassets/apks/isfahanLocations.apk)
 
 
 ![-----------------------------------------------------](ScreenShots/rainbow.png)
