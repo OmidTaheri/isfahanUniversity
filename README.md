@@ -53,7 +53,7 @@ The application of Isfahan University locator has been developed for locating an
 
 [![Download Demo apk](https://img.shields.io/badge/-Download%20Demo%20apk-orange)](http://omidtaheri.ir/myRes/apks/isfahanLocations.apk)
 
-[Download Demo apk](http://omidtaheri.ir/myRes/apks/isfahanLocations.apk)
+[Download Demo apk](https://github.com/OmidTaheri/isfahanUniversity/blob/master/Apks/IsfUni.apk)
 
 
 ![-----------------------------------------------------](ScreenShots/rainbow.png)
