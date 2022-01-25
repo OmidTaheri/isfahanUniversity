@@ -41,7 +41,7 @@ The application of Isfahan University locator has been developed for locating an
 * Google Material Design
 * Retrofit- Network Requests
 * Dagger- Dependency Injection
-* RxJava/RxAndroid- Reacttive Programming
+* RxJava/RxAndroid- Reactive Programming
 * Firebase Crashlytics
 
  ![-----------------------------------------------------](ScreenShots/rainbow.png)
